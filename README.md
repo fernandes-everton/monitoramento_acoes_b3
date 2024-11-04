@@ -137,7 +137,7 @@ config = [{
 ## Exemplo de Uso
 
 1. **Acompanhamento de Ações na B3**: Execute o notebook no Databricks e insira o código das ações, data inicial e data final nos widgets para realizar a análise desejada.
-2. **Dashboard de Análise**: Visualize os dados em um dashboard interativo criado a partir dos dados obtidos. [Clique aqui para acessar o dashboard](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4212551225649944/921148053696170/3959289706457058/latest.html).
+2. **Dashboard de Análise**: Visualize os dados em um dashboard interativo criado a partir dos dados obtidos. [Clique aqui para acessar um exemplo de Dashboard](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4212551225649944/921148053696170/3959289706457058/latest.html).
 3. **Monitoramento de Ações Via Telegram**: Execute o script com as configurações dos gatilhos e o bot enviará notificações ao Telegram quando as condições forem atendidas.
 
 ## Considerações Finais
