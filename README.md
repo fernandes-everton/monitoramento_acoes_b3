@@ -5,6 +5,25 @@ Este projeto contém dois scripts principais para **análise de ações** e **mo
 1. **Acompanhamento de Ações na B3**: Permite a análise detalhada das cotações, médias móveis, e dividendos das ações selecionadas.
 2. **Monitoramento de Ações Via Telegram**: Envia notificações para um grupo ou usuário no Telegram sempre que o preço de uma ação atinge um gatilho pré-definido, tanto em variação percentual quanto em valor.
 
+## Índice
+
+- [Requisitos de Instalação](#requisitos-de-instalação)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+  - [1. Acompanhamento de Ações na B3](#1-acompanhamento-de-ações-na-b3)
+    - [Dependências](#dependências)
+    - [Importação de Bibliotecas](#importação-de-bibliotecas)
+    - [Configuração de Widgets e Variáveis](#configuração-de-widgets-e-variáveis)
+    - [Coleta de Preços das Ações e Cálculo de Médias Móveis](#coleta-de-preços-das-ações-e-cálculo-de-médias-móveis)
+    - [Análise SQL das Cotações](#análise-sql-das-cotações)
+    - [Exemplos de Consultas SQL para Análise](#exemplos-de-consultas-sql-para-análise)
+  - [2. Monitoramento de Ações Via Telegram](#2-monitoramento-de-ações-via-telegram)
+    - [Configuração do Bot](#configuração-do-bot)
+    - [Gatilhos de Monitoramento](#gatilhos-de-monitoramento)
+    - [Funções de Monitoramento e Envio de Mensagens](#funções-de-monitoramento-e-envio-de-mensagens)
+    - [Exemplo de Código para Monitoramento](#exemplo-de-código-para-monitoramento)
+- [Exemplo de Uso](#exemplo-de-uso)
+- [Considerações Finais](#considerações-finais)
+
 ## Requisitos de Instalação
 
 Antes de executar o código, instale as dependências necessárias:
@@ -56,7 +75,7 @@ Várias consultas SQL foram criadas para analisar o desempenho diário, lucro an
 - **Volume de Negociações**
 - **Dividend Yield e Análise de Dividendos**
 
-#### Consultas SQL para Análise
+#### Exemplos de Consultas SQL para Análise
 
 Abaixo estão alguns exemplos de consultas:
 
