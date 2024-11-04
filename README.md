@@ -1,8 +1,8 @@
-# Monitoramento e Análise de Ações na B3
+# Monitoramento e Análise de Ações na B3 (Bolsa de Valores Brasileira)
 
-Este projeto contém dois scripts principais para **análise de ações** e **monitoramento via Telegram** de ações listadas na B3 (Bolsa de Valores Brasileira). 
+Este projeto contém dois scripts principais para **análise de ações** e **monitoramento via Telegram** de ações listadas na B3. 
 
-1. **Acompanhamento de Ações na B3**: Executado em um notebook Jupyter no Databricks Community, permite a análise detalhada das cotações, médias móveis, e dividendos das ações selecionadas.
+1. **Acompanhamento de Ações na B3**: Permite a análise detalhada das cotações, médias móveis, e dividendos das ações selecionadas.
 2. **Monitoramento de Ações Via Telegram**: Envia notificações para um grupo ou usuário no Telegram sempre que o preço de uma ação atinge um gatilho pré-definido, tanto em variação percentual quanto em valor.
 
 ## Requisitos de Instalação
@@ -39,7 +39,7 @@ from pyspark.sql import DataFrame, SparkSession
 #### Configuração de Widgets e Variáveis
 
 - Criação de widgets no Databricks para entrada de dados do usuário: 
-  - **Código das Ações**: múltiplos códigos separados por vírgula (ex: `AAPL, PETR4.SA`).
+  - **Código das Ações**: múltiplos códigos separados por vírgula (ex: `BBAS3.SA,ITUB4.SA`).
   - **Data Inicial** e **Data Final**: Período de análise.
 
 #### Coleta de Preços das Ações e Cálculo de Médias Móveis
